@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的博客</title>
+    <title>我的博客</title> 
 </head>
 <body>
     <div style="text-align: right;">
@@ -12,10 +12,10 @@
         <span>{{$user['username']}}</span>
         <a href="">退出</a>
         @else
-        <a href="">登录</a>
+        <a href=""></a>
         <a href="">注册</a>
         @endif
-    </div>
+    </div>  
     @foreach($article_list as $article)
     <div><a href="">{{$article['title']}}</a></div>
     @endforeach

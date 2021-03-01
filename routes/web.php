@@ -33,3 +33,5 @@ Route::get('/product/detail/{id}/{iidd}', function ($id,$iidd) {
 Route::get('/article/lists','Article@lists');
 
 Route::get('/article/index','Article@index');
+
+Route::get('/mydb/select','Mydb@select')->middleware('mytest');
